@@ -1,0 +1,6 @@
+Set-LapsADComputerSelfPermission -Identity "OU=Workstations,OU=Computers,OU=Diarabaka,DC=diarabaka,DC=com"
+
+Set-LapsADReadPasswordPermission -Identity "OU=Workstations,OU=Computers,OU=Diarabaka,DC=diarabaka,DC=com" -AllowedPrincipals "diarabaka.com\GG-IT"
+
+Set-LapsADResetPasswordPermission -Identity "OU=Workstations,OU=Computers,OU=Diarabaka,DC=diarabaka,DC=com" -AllowedPrincipals "diarabaka.com\GG-IT"
+

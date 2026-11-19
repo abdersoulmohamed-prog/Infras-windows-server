@@ -1,0 +1,15 @@
+# Configure Certificate Auto Enrollment Using Group Policy
+
+![CCAE](./assets/01.png)
+![CCAE](./assets/02.png)
+![CCAE](./assets/03.png)
+![CCAE](./assets/04.png)
+![CCAE](./assets/05.png)
+![CCAE](./assets/06.png)
+![CCAE](./assets/07.png)
+![CCAE](./assets/08.png)
+![CCAE](./assets/09.png)
+![CCAE](./assets/10.png)
+![CCAE](./assets/11.png)
+![CCAE](./assets/12.png)
+![CCAE](./assets/13.png)

@@ -1,0 +1,16 @@
+# Configure Secure LDAP (LDAPS) Using AD CS Certificates
+
+![LDAPS](./assets/01.png)
+![LDAPS](./assets/02.png)
+![LDAPS](./assets/03.png)
+![LDAPS](./assets/04.png)
+![LDAPS](./assets/05.png)
+![LDAPS](./assets/06.png)
+![LDAPS](./assets/07.png)
+![LDAPS](./assets/08.png)
+![LDAPS](./assets/09.png)
+![LDAPS](./assets/10.png)
+![LDAPS](./assets/11.png)
+![LDAPS](./assets/12.png)
+![LDAPS](./assets/13.png)
+![LDAPS](./assets/14.png)
