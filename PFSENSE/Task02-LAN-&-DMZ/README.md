@@ -1,6 +1,6 @@
 # LAN & DMZ LOCAL AREA NETWORK DEMILITARIZED ZONE
 
-![pfsense](/Task02-LAN-&-DMZ/assets/01.png)
+![pfsense](./PFSENSE/Task02-LAN-&-DMZ/assets/01.png)
 
 ![pfsense](/Task02-LAN-&-DMZ/assets/02.png)
 
