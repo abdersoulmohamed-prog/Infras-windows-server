@@ -1,0 +1,41 @@
+# Provisionnement à la demande
+
+##Entra Cloud Sync
+
+### La nouvelle façon légère de synchroniser.
+
+- 54-55 Installer et configurer Entra Cloud Sync
+- 56 Provisionnement à la demande
+
+```sh
+$LocalUsers = Get-ADUser `
+    -Filter "UserPrincipalName -like '*@diarabaka.com'" `
+    -Properties UserPrincipalName `
+    -ResultSetSize $null
+```
+
+```sh
+$LocalUsers | Select Name, SamAccountName, UserPrincipalName
+```
+
+- vérifier ce qui va changer
+
+```sh
+$LocalUsers | ForEach-Object {
+    [PSCustomObject]@{
+        User = $_.SamAccountName
+        OldUPN = $_.UserPrincipalName
+        NewUPN = $_.UserPrincipalName.Replace("diarabaka.lan","diarabaka.com")
+    }
+}
+```
+
+```sh
+foreach ($User in $LocalUsers) {
+    $NewUPN = $User.UserPrincipalName.Replace("diarabaka.lan","diarabaka.com")
+
+    Set-ADUser `
+        -Identity $User `
+        -UserPrincipalName $NewUPN
+}
+```

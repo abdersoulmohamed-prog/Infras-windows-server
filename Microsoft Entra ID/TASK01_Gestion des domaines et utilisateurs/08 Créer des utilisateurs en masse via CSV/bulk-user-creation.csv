@@ -1,0 +1,7 @@
+﻿version:v1.0
+Name [displayName] Required,User name [userPrincipalName] Required,Initial password [passwordProfile] Required,Account enabled (true/false) [accountEnabled],First name [givenName],Last name [surname],Job title [jobTitle],Department [department],Usage location [usageLocation],Street address [streetAddress],State or province [state],Country or region [country],Office [officeLocation],City [city],ZIP or postal code [postalCode],Business phone [businessPhones],Mobile phone [mobilePhone]
+Test User,test.user@diarabaka.com,T3stP@ssw0rd!,true,Test,User,Test Engineer,IT,BE,Rue de la Loi 100,Brussels,Belgium,Test Office,Brussels,1040,+32 477 11 22 33,+32 477 44 55 66
+Alice Dupont,alice.dupont@diarabaka.com,Alic3P@ssw0rd!,true,Alice,Dupont,Project Manager,Projects,BE,Boulevard du Souverain 25,Brussels,Belgium,Project Office,Brussels,1170,+32 477 77 88 99,+32 477 00 11 22
+Bob Martin,bob.martin@diarabaka.com,B0bP@ssw0rd!,true,Bob,Martin,Developer,IT,BE,Rue de la Science 14,Brussels,Belgium,Dev Office,Brussels,1040,+32 477 99 88 77,+32 477 66 55 44
+Marie Dubois,marie.dubois@diarabaka.com,M4r1eP@ssw0rd!,true,Marie,Dubois,HR Manager,HR,BE,Avenue de Tervueren 200,Brussels,Belgium,HR Office,Brussels,1150,+32 477 55 44 33,+32 477 22 11 00
+Jean Martin,jean.martin@diarabaka.com,J3anP@ssw0rd!,true,Jean,Martin,Accountant,Finance,BE,Rue du Commerce 45,Brussels,Belgium,Finance Office,Brussels,1000,+32 477 33 44 55,+32 477 66 77 88
